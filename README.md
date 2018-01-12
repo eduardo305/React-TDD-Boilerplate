@@ -15,6 +15,7 @@ This boilerplate was designed to work with a TDD approach. It has already Enzyme
 - If you want to see your app in a Browser, then you can run this:
   - `npm run dev:hot`
 
+  It will put your code available to the port 3000. You can type `https://localhost:3000` in your browser and see the boiler plate in action.
   Again, this command will be listening for your changes. Whenever you change a file, the browser will reload and show your changes.
 
   `Tip:` You can keep two separate terminals, one for each command. Then you can both see your tests running and your changes showing up on the browser.
