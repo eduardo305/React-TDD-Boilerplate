@@ -18,3 +18,5 @@ This boilerplate was designed to work with a TDD approach. It has already Enzyme
   Again, this command will be listening for your changes. Whenever you change a file, the browser will reload and show your changes.
 
   `Tip:` You can keep two separate terminals, one for each command. Then you can both see your tests running and your changes showing up on the browser.
+
+  `Attention:` Node 8.6.0 at least is required to run this boilerplate
