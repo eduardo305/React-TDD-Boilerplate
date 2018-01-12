@@ -1,0 +1,29 @@
+.Spinner {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+  animation: pulse 1s infinite;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 rgba(204, 60, 44, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 0 20px rgba(204, 60, 44, 0);
+    transform: scale(2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 rgba(204, 60, 44, 0);
+  }
+}

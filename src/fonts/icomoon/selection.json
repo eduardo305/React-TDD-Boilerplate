@@ -1,0 +1,160 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"
+        ],
+        "tags": [
+          "home",
+          "house"
+        ],
+        "defaultCode": 59648,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "home, house",
+        "name": "home",
+        "order": 3,
+        "id": 1,
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 608l-192-192v-288h-128v160l-192-192-512 512v32h128v320h320v-192h128v192h320v-320h128z"
+        ],
+        "tags": [
+          "home",
+          "house"
+        ],
+        "defaultCode": 59650,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "home3, house3",
+        "name": "home3",
+        "order": 5,
+        "id": 3,
+        "prevSize": 32,
+        "code": 59650
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 192c-223.318 0-416.882 130.042-512 320 95.118 189.958 288.682 320 512 320 223.312 0 416.876-130.042 512-320-95.116-189.958-288.688-320-512-320zM764.45 361.704c60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-89.56 0-176.858-25.486-252.452-73.704-60.158-38.372-111.138-89.772-149.432-150.296 38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.86-7.3-9.96 27.328-15.41 56.822-15.41 87.596 0 141.382 114.616 256 256 256 141.382 0 256-114.618 256-256 0-30.774-5.452-60.268-15.408-87.598 3.978 2.378 7.938 4.802 11.858 7.302v0zM512 416c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.982 96 96z"
+        ],
+        "tags": [
+          "eye",
+          "views",
+          "vision",
+          "visit"
+        ],
+        "defaultCode": 59854,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "eye, views",
+        "name": "eye",
+        "order": 4,
+        "id": 207,
+        "prevSize": 32,
+        "code": 59854
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 206
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 128h-128v-128h-128v128h-128v128h128v128h128v-128h128z",
+          "M863.862 446.028c18.436 20.478 35.192 42.53 50.022 65.972-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-89.56 0-176.86-25.486-252.454-73.704-60.156-38.372-111.136-89.772-149.43-150.296 38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.862-7.3-9.962 27.328-15.412 56.822-15.412 87.596 0 141.382 114.616 256 256 256 141.38 0 256-114.618 256-256 0-0.692-0.018-1.38-0.024-2.072-109.284-28.138-190.298-126.63-191.932-244.31-21.026-2.38-42.394-3.618-64.044-3.618-223.318 0-416.882 130.042-512 320 95.118 189.958 288.682 320 512 320 223.31 0 416.876-130.042 512-320-17.64-35.23-38.676-68.394-62.65-99.054-29.28 17.178-62.272 28.71-97.488 33.082zM416 320c53.020 0 96 42.982 96 96 0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96z"
+        ],
+        "tags": [
+          "eye-plus",
+          "views",
+          "vision",
+          "visit"
+        ],
+        "defaultCode": 59855,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "eye-plus, views2",
+        "name": "eye-plus",
+        "order": 2,
+        "id": 208,
+        "prevSize": 32,
+        "code": 59855
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 207
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "showSelector": true,
+      "showMetrics": true,
+      "showMetadata": true,
+      "showVersion": true,
+      "autoHost": true
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "YjZiMzBmMzJkNTYwMTVmMGNlOTZmNjZlMzFmNTY3ZjEjMSMxNTE1NjA2MjA0IyMj"
+    }
+  }
+}
