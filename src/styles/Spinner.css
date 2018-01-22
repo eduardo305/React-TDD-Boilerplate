@@ -1,29 +1,30 @@
 .Spinner {
-  width: 20px;
-  height: 20px;
+  border: 3px solid lightgray;
+  border-top: 3px solid red;
   border-radius: 50%;
-  background: red;
-  box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
-  animation: pulse 1s infinite;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  animation: spin 2s linear infinite;
 }
 
-@keyframes pulse {
+.Spinner.small {
+  width: 20px;
+  height: 20px;
+}
+
+.Spinner.medium {
+  width: 40px;
+  height: 40px;
+}
+
+.Spinner.big {
+  width: 80px;
+  height: 80px;
+}
+
+@keyframes spin {
   0% {
-    box-shadow: 0 0 0 rgba(204, 60, 44, 0.4);
+    transform: rotate(0deg);
   }
-
-  70% {
-    box-shadow: 0 0 0 20px rgba(204, 60, 44, 0);
-    transform: scale(2);
-  }
-
   100% {
-    box-shadow: 0 0 0 rgba(204, 60, 44, 0);
+    transform: rotate(360deg);
   }
 }
