@@ -2,10 +2,10 @@
 // your own reducers
 
 import { combineReducers } from 'redux';
-import SourceReducer from './SourceReducer';
+import CommentReducer from './commentReducer';
 
 const rootReducer = combineReducers({
-  source: SourceReducer
+  comments: CommentReducer
 });
 
 export default rootReducer;
