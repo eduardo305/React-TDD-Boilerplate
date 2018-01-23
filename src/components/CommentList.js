@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import CommentItem from './CommentItem';
 import { fetchComments } from '../actions/index';
 
 class CommentList extends Component {
@@ -18,7 +19,7 @@ class CommentList extends Component {
 
   renderComments() {
     return this.props.comments.all.map((comment, i) => {
-      return <div key={ comment._id }>{ comment.name.first}</div>;
+      return <CommentItem key={ comment._id } comment={ comment }/>
     });
   }
 

@@ -22,7 +22,8 @@
     "redux-thunk": "^2.2.0",
     "style-loader": "^0.19.1",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^2.9.7",
+    "youtube-api-search": "0.0.5"
   },
   "devDependencies": {
     "chai": "^4.1.2",
