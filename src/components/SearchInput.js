@@ -21,7 +21,6 @@ class SearchInput extends Component {
   }
 
   render() {
-    console.log(this.props);
     return <input 
       type='text' 
       placeholder='What do you wanna watch?'
@@ -31,10 +30,4 @@ class SearchInput extends Component {
   }
 }
 
-const mapStateToProps = (store) => {
-  return {
-    videos: store.videos
-  };
-}
-
-export default connect(mapStateToProps, { fetchVideos })(SearchInput);
+export default connect(null, { fetchVideos })(SearchInput);
