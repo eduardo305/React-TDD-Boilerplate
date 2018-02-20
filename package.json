@@ -23,6 +23,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "devDependencies": {
+    "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.1",
@@ -37,7 +38,7 @@
     "url-loader": "^0.6.2"
   },
   "scripts": {
-    "build": "webpack -w",
+    "build": "webpack",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch",
     "test": "mocha --require babel-register --require ignore-styles test/helpers/config.js test/**/*.spec.js src/**/*.js",
     "test:tdd": "mocha --require babel-register --require ignore-styles --watch test/helpers/config.js test/**/*.spec.js src/**/*.js"
