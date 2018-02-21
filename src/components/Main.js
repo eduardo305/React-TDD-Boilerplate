@@ -1,9 +1,10 @@
 import React from 'react';
+import UserListContainer from './UserListContainer';
 
 export default () => {
   return (
     <div className='Main'>
-      Main
+      <UserListContainer />
     </div>
   );
 };
